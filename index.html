@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      PetNameGenius - Find the Perfect Name for Your Pet | Dog Names, Cat Names
+      & More
+    </title>
+    <meta
+      name="description"
+      content="Discover the perfect name for your pet with our AI-powered generator. Browse 1000+ unique dog names, cat names, and more with meanings and origins."
+    />
+    <meta
+      name="keywords"
+      content="pet names, dog names, cat names, puppy names, kitten names, pet name generator, unique pet names"
+    />
+
+    <!-- Open Graph Tags for Social Media -->
+    <meta
+      property="og:title"
+      content="PetNameGenius - Perfect Pet Names Generator"
+    />
+    <meta
+      property="og:description"
+      content="Find the perfect name for your furry friend with our smart pet name generator."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div class="logo">GeNamePet</div>
+        <ul class="nav-links">
+          <li><a href="#generator">Name Generator</a></li>
+          <li><a href="#trending">Trending Names</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Find the Perfect Name for Your Furry Friend</h1>
+        <p>
+          Discover unique and meaningful names for dogs, cats, and all pets with
+          our AI-powered generator
+        </p>
+
+        <!-- Pet Gallery -->
+        <div class="pet-gallery">
+          <div class="pet-image-placeholder">
+            <img
+              src="images/Genamepetdog.jpg"
+              alt="Cut dog"
+              class="pet-image"
+            />
+          </div>
+          <div class="pet-image-placeholder">
+            <img
+              src="images/Genamepetcat.jpg"
+              alt="Cut dog"
+              class="pet-image"
+            />
+          </div>
+          <div class="pet-image-placeholder">
+            <img src="images/GenameRab.jpg" alt="Cut dog" class="pet-image" />
+          </div>
+          <div class="pet-image-placeholder">
+            <img src="images/Genapetbird.jpg" alt="Cut dog" class="pet-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Generator Section -->
+    <section class="generator-section" id="generator">
+      <div class="generator-container">
+        <h2 class="generator-title">🎯 Smart Pet Name Generator</h2>
+
+        <div class="filter-grid">
+          <div class="filter-group">
+            <label for="petType">🐾 Pet Type</label>
+            <select id="petType">
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="rabbit">Rabbit</option>
+              <option value="bird">Bird</option>
+              <option value="hamster">Hamster</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="gender">⚡ Gender</label>
+            <select id="gender">
+              <option value="any">Any</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="personality">🎨 Personality</label>
+            <select id="personality">
+              <option value="any">Any</option>
+              <option value="playful">Playful & Energetic</option>
+              <option value="calm">Calm & Gentle</option>
+              <option value="brave">Brave & Strong</option>
+              <option value="cute">Cute & Sweet</option>
+              <option value="smart">Smart & Clever</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="origin">🌍 Origin</label>
+            <select id="origin">
+              <option value="any">Any Origin</option>
+              <option value="english">English</option>
+              <option value="french">French</option>
+              <option value="japanese">Japanese</option>
+              <option value="spanish">Spanish</option>
+              <option value="italian">Italian</option>
+              <option value="german">German</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="generate-btn" onclick="generateNames()">
+          ✨ Generate Perfect Names
+        </button>
+
+        <!-- Loading Animation -->
+        <div class="loading" id="loading">
+          <div class="loading-spinner"></div>
+          <p>Finding perfect names for your pet...</p>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-section" id="results">
+          <h3 style="text-align: center; margin-bottom: 2rem">
+            🎉 Perfect Names for Your Pet
+          </h3>
+          <div class="results-grid" id="resultsGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Pets Section -->
+    <section class="featured-pets">
+      <h2>🌟 Featured Pet Names This Week</h2>
+      <div class="featured-grid">
+        <div class="featured-card">
+          <div class="featured-image">
+            <img src="images/lunadog.jpg" alt="luna dog" />
+          </div>
+          <div class="featured-content">
+            <h3>Luna - #1 Female Dog Name</h3>
+            <p>
+              Meaning "moon" in Latin, Luna has become the most popular female
+              dog name in 2024. Perfect for dogs with a gentle, mystical
+              personality.
+            </p>
+          </div>
+        </div>
+
+        <div class="featured-card">
+          <div class="featured-image">
+            <img src="images/petnamegenerator.jpg" alt="luna dog" />
+          </div>
+          <div class="featured-content">
+            <h3>Milo - #1 Male Cat Name</h3>
+            <p>
+              This charming name overtook Oliver as the top male cat name this
+              year. Great for playful and adventurous felines.
+            </p>
+          </div>
+        </div>
+
+        <div class="featured-card">
+          <div class="featured-image">
+            <img src="images/Charliedognamegenerator.jpg" alt="luna dog" />
+          </div>
+          <div class="featured-content">
+            <h3>Charlie - Classic & Timeless</h3>
+            <p>
+              A beloved classic that works for both dogs and cats. Charlie
+              remains in the top 5 most popular pet names across all categories.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BLOG SECTION ===== -->
+    <section class="blog-section" id="blog">
+      <div class="container">
+        <div class="section-header">
+          <h1>🐾 Pet Care Blog</h1>
+          <h2>Expert advice, tips, and stories for pet lovers</h2>
+        </div>
+
+        <!-- Blog Categories Filter -->
+        <div class="blog-categories">
+          <button class="category-btn active" data-category="all">
+            All Articles
+          </button>
+          <button class="category-btn" data-category="care">Pet Care</button>
+          <button class="category-btn" data-category="training">
+            Training
+          </button>
+          <button class="category-btn" data-category="health">Health</button>
+          <button class="category-btn" data-category="nutrition">
+            Nutrition
+          </button>
+        </div>
+
+        <!-- Blog Grid -->
+        <div class="blog-grid" id="blogGrid">
+          <!-- Articles will be dynamically loaded here -->
+        </div>
+
+        <!-- Load More Button -->
+        <div class="blog-actions">
+          <button class="load-more-btn" id="loadMoreBtn">
+            Load More Articles
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ARTICLE MODAL ===== -->
+    <div class="article-modal" id="articleModal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-body" id="modalBody">
+          <!-- Article content will be loaded here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <h3>10,000+</h3>
+          <p>Unique Pet Names</p>
+        </div>
+        <div class="stat-item">
+          <h3>50,000+</h3>
+          <p>Happy Pet Parents</p>
+        </div>
+        <div class="stat-item">
+          <h3>100+</h3>
+          <p>Name Origins</p>
+        </div>
+        <div class="stat-item">
+          <h3>24/7</h3>
+          <p>Name Generation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4 class="logo">GeNamePet</h4>
+          <span class="footer_text">The #1 name generator for your pets</span>
+        </div>
+
+        <div class="footer-section">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Pet Name Meanings</a></li>
+            <li><a href="#">Name Generator</a></li>
+            <li><a href="#">Pet Care Tips</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </div>
+
+        <!-- <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </div> -->
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 PetNameGenius. All rights reserved. Made with ❤️ for pet
+          lovers.
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
