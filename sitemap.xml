@@ -8,23 +8,25 @@
     <priority>1.0</priority>
   </url>
 
-  <url>
-    <loc>https://www.genamepet.com/blog/article1.html</loc>
-    <lastmod>2025-07-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
 
   <url>
-    <loc>https://www.genamepet.com/blog/article2.html</loc>
+    <loc>https://genamepet.com/#article/1/10-essential-tips-for-firsttime-dog-owners</loc>
     <lastmod>2025-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.genamepet.com/blog/article3.html</loc>
+    <loc>https://genamepet.com/#article/2/understanding-cat-behavior-what-your-feline-is-trying-to-tell-you</loc>
     <lastmod>2025-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://genamepet.com/#article/3/the-complete-guide-to-puppy-training</loc>
+    <lastmod>2025-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
