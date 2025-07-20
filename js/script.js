@@ -884,6 +884,80 @@ console.log(
 
 // ===== BLOG ARTICLES DATABASE =====
 const blogArticles = [
+
+  {
+  id: 3,
+  title: "Top 10 Cat Toys to Keep Your Feline Happy and Active (2025 Guide)",
+  category: "products",
+  excerpt:
+    "Looking for the best toys to stimulate your cat? Discover top-rated interactive toys every cat parent should know about.",
+  content: `
+    <h3>Why Cat Toys Matter</h3>
+    <p>Cats need both mental and physical stimulation to stay healthy. The right toy can reduce anxiety, encourage exercise, and prevent destructive behavior.</p>
+
+    <img src="images/blog/cattoys.jpg" alt="Best cat toys in 2025" style="max-width:100%; border-radius:12px; margin: 1rem 0;" />
+
+    <h3>1. Interactive Laser Toy</h3>
+    <p>This automatic laser keeps your cat chasing light beams while you relax. Great for solo play.<br />
+    👉 <a href="https://amzn.to/4o3keZ6" target="_blank">Check on Amazon</a></p>
+
+    <h3>2. Catnip-Filled Mice</h3>
+    <p>Soft, chewable, and infused with organic catnip—perfect for encouraging natural hunting instincts.<br />
+    👉 <a href="https://amzn.to/4f3hzKL" target="_blank">Buy now on Amazon</a></p>
+
+    <h3>3. Feather Wand Toy</h3>
+    <p>A classic. Engage with your cat using this durable, fun wand. Great bonding activity!<br />
+    👉 <a href="https://amzn.to/4lXgPJo" target="_blank">Shop on Amazon</a></p>
+
+    <h3>4. Puzzle Feeders</h3>
+    <p>Make mealtime a game. Stimulates brain activity and slows down overeating.<br />
+    👉 <a href="https://amzn.to/4lwmdDo" target="_blank">See on Amazon</a></p>
+
+    <h3>5. Motion-Activated Ball</h3>
+    <p>This smart ball moves unpredictably when touched. Keeps cats active and engaged.<br />
+    👉 <a href="https://amzn.to/3Uaoatn" target="_blank">View on Amazon</a></p>
+
+    <h3>6. Cat Tunnel with Crinkle</h3>
+    <p>Perfect for hiding, playing, and zoomies. Cats love the crinkling sound.<br />
+    👉 <a href="https://amzn.to/4m7MfwM" target="_blank">Buy on Amazon</a></p>
+
+    <h3>7. Hanging Door Toy</h3>
+    <p>Attaches to any door and swings naturally. Keeps indoor cats entertained when alone.<br />
+    👉 <a href="https://amzn.to/4f5jZIW" target="_blank">Check on Amazon</a></p>
+
+    <h3>8. Cat Teething Rings</h3>
+    <p>For kittens especially, these toys help with teething and oral health.<br />
+    👉 <a href="https://amzn.to/3GAhvWd" target="_blank">Get it here</a></p>
+
+    <h3>9. Robotic Mouse</h3>
+    <p>Battery-powered, realistic movement—great for cats that get bored easily.<br />
+    👉 <a href="https://amzn.to/4lD1ZI6" target="_blank">View product</a></p>
+
+    <h3>10. Treat Dispensers</h3>
+    <p>A toy and reward system in one. Keeps them motivated and active.<br />
+    👉 <a href="https://amzn.to/45byPdf" target="_blank">Find on Amazon</a></p>
+
+    <h3>Final Thoughts</h3>
+    <p>The best toy is one your cat actually uses — experiment with a few types to discover what clicks. Enriching your cat’s environment helps prevent boredom, improves health, and deepens your bond.</p>
+  `,
+  readTime: "5 min read",
+  date: "2025-07-13",
+  author: "Dr. Emily Chen",
+  image: "images/blog/top-cat-toys.jpg",
+  tags: ["products", "cat toys", "reviews", "amazon"],
+  seo: {
+    metaTitle: "Top 10 Cat Toys of 2025 | Best Interactive Toys for Cats",
+    metaDescription:
+      "Discover the best cat toys of 2025 to keep your feline happy, active, and healthy. Interactive, catnip, puzzle feeders & more — with Amazon links.",
+    keywords: [
+      "best cat toys 2025",
+      "interactive toys for cats",
+      "amazon cat toys",
+      "cat enrichment products"
+    ]
+  }
+}
+
   {
     id: 1,
     title: "10 Essential Tips for First-Time Dog Owners",
