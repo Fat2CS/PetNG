@@ -884,14 +884,13 @@ console.log(
 
 // ===== BLOG ARTICLES DATABASE =====
 const blogArticles = [
-
   {
-  id: 1,
-  title: "Top 10 Cat Toys to Keep Your Feline Happy and Active (2025 Guide)",
-  category: "products",
-  excerpt:
-    "Looking for the best toys to stimulate your cat? Discover top-rated interactive toys every cat parent should know about.",
-  content: `
+    id: 1,
+    title: "Top 10 Cat Toys to Keep Your Feline Happy and Active (2025 Guide)",
+    category: "products",
+    excerpt:
+      "Looking for the best toys to stimulate your cat? Discover top-rated interactive toys every cat parent should know about.",
+    content: `
     <h3>Why Cat Toys Matter</h3>
     <p>Cats need both mental and physical stimulation to stay healthy. The right toy can reduce anxiety, encourage exercise, and prevent destructive behavior.</p>
 
@@ -940,23 +939,23 @@ const blogArticles = [
     <h3>Final Thoughts</h3>
     <p>The best toy is one your cat actually uses — experiment with a few types to discover what clicks. Enriching your cat’s environment helps prevent boredom, improves health, and deepens your bond.</p>
   `,
-  readTime: "5 min read",
-  date: "2025-07-13",
-  author: "Dr. Emily Chen",
-  image: "images/blog/top-cat-toys.jpg",
-  tags: ["products", "cat toys", "reviews", "amazon"],
-  seo: {
-    metaTitle: "Top 10 Cat Toys of 2025 | Best Interactive Toys for Cats",
-    metaDescription:
-      "Discover the best cat toys of 2025 to keep your feline happy, active, and healthy. Interactive, catnip, puzzle feeders & more — with Amazon links.",
-    keywords: [
-      "best cat toys 2025",
-      "interactive toys for cats",
-      "amazon cat toys",
-      "cat enrichment products",
-    ]
-  }
-},
+    readTime: "5 min read",
+    date: "2025-07-13",
+    author: "Dr. Emily Chen",
+    image: "images/blog/cattoys.jpg",
+    tags: ["products", "cat toys", "reviews", "amazon"],
+    seo: {
+      metaTitle: "Top 10 Cat Toys of 2025 | Best Interactive Toys for Cats",
+      metaDescription:
+        "Discover the best cat toys of 2025 to keep your feline happy, active, and healthy. Interactive, catnip, puzzle feeders & more — with Amazon links.",
+      keywords: [
+        "best cat toys 2025",
+        "interactive toys for cats",
+        "amazon cat toys",
+        "cat enrichment products"
+      ]
+    }
+  },
 
   {
     id: 2,
