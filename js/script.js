@@ -886,7 +886,7 @@ console.log(
 const blogArticles = [
 
   {
-  id: 3,
+  id: 1,
   title: "Top 10 Cat Toys to Keep Your Feline Happy and Active (2025 Guide)",
   category: "products",
   excerpt:
@@ -953,13 +953,13 @@ const blogArticles = [
       "best cat toys 2025",
       "interactive toys for cats",
       "amazon cat toys",
-      "cat enrichment products"
+      "cat enrichment products",
     ]
   }
-}
+},
 
   {
-    id: 1,
+    id: 2,
     title: "10 Essential Tips for First-Time Dog Owners",
     category: "care",
     excerpt:
@@ -1001,7 +1001,7 @@ const blogArticles = [
     }
   },
   {
-    id: 2,
+    id: 3,
     title: "Understanding Cat Behavior: What Your Feline is Trying to Tell You",
     category: "care",
     excerpt:
@@ -1044,7 +1044,7 @@ const blogArticles = [
     }
   },
   {
-    id: 3,
+    id: 4,
     title: "The Complete Guide to Puppy Training",
     category: "training",
     excerpt:
@@ -1094,7 +1094,7 @@ const blogArticles = [
     }
   },
   {
-    id: 4,
+    id: 5,
     title: "Nutritional Needs: Feeding Your Pet for Optimal Health",
     category: "nutrition",
     excerpt:
@@ -1146,7 +1146,7 @@ const blogArticles = [
     }
   },
   {
-    id: 5,
+    id: 6,
     title: "Common Health Issues in Senior Pets",
     category: "health",
     excerpt:
