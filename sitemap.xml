@@ -38,6 +38,19 @@
     <priority>0.8</priority>
   </url>
 
+ <url>
+    <loc>https://genamepet.com/#article/5/nutritional-needs-feeding-your-pet-for-optimal-health</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+<url>
+    <loc>https://genamepet.com/#article/6/common-health-issues-in-senior-pets</loc>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   
 
 </urlset>
