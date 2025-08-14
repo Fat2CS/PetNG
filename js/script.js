@@ -1350,7 +1350,7 @@ function generateArticleHTML(article) {
 // 2. Fonction openArticleModal corrigée
 function openArticleModal(article) {
   // Créer une URL unique pour l'article
-  const articleUrl = `#article/${article.id}/${slugify(article.title)}`;
+  const articleUrl = `article/${article.id}/${slugify(article.title)}`;
 
   // Mettre à jour l'URL sans recharger la page
   window.history.pushState(
