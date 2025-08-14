@@ -8,49 +8,47 @@
     <priority>1.0</priority>
   </url>
 
-
-
   <url>
-    <loc>https://genamepet.com/#article/1/Top 10 Cat Toys to Keep Your Feline Happy and Active (2025 Guide)</loc>
+    <loc>https://genamepet.com/article1.html</loc>
     <lastmod>2025-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://genamepet.com/#article/2/10-essential-tips-for-firsttime-dog-owners</loc>
+    <loc>https://genamepet.com/article2.html</loc>
     <lastmod>2025-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://genamepet.com/#article/3/understanding-cat-behavior-what-your-feline-is-trying-to-tell-you</loc>
+    <loc>https://genamepet.com/article3.html</loc>
     <lastmod>2025-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://genamepet.com/#article/4/the-complete-guide-to-puppy-training</loc>
+    <loc>https://genamepet.com/article4.html</loc>
     <lastmod>2025-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
- <url>
-    <loc>https://genamepet.com/#article/5/nutritional-needs-feeding-your-pet-for-optimal-health</loc>
+  <url>
+    <loc>https://genamepet.com/article5.html</loc>
     <lastmod>2025-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-<url>
-    <loc>https://genamepet.com/#article/6/common-health-issues-in-senior-pets</loc>
+  <url>
+    <loc>https://genamepet.com/article6.html</loc>
     <lastmod>2025-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
 
 </urlset>
+
